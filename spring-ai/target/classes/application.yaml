@@ -10,7 +10,7 @@ spring:
     password: springai123
   ai:
     openai:
-      api-key: sk-proj-jr7aUQLfWdIjynT5Uhx6T3BlbkFJ5hV2NBmLutxYkmmOTO5c
+      api-key: ${OPEN_API_KEY:}
       chat:
         options:
           model: gpt-4
